@@ -28,11 +28,11 @@ To validate our hypothesis, we designed an experiment to compare ALIGNDP against
     ```bash
     pip install numpy
     ```
-2.  **Data File:** Create a CSV file named `align_dp_feedback_data.csv` in your project's root directory. It should have a single column titled `Feedback` containing the categories you want to test (e.g., `"dislike"`, `"like"`, `"override"`).
+2.  **Data File:** Create a CSV file named `align_dp_feedback_data.csv` in your project's root directory. It should have a single column titled `Feedback` containing the categories you want to test (e.g., `"dislike"`, `"like"`, `"override"`). See Example file in repo. You can even just use this.
 3.  **Code:** Use the Python script that contains the simulation logic for both algorithms.
 4.  **Execute:** Run the script from your terminal.
     ```bash
-    python your_main_script_name.py
+    python aligndp_csv_validation.py
     ```
 
 ## Key Findings (Final Results)
